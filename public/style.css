@@ -1,0 +1,109 @@
+body {
+    background-image: url('./image/bgmovie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.info {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.info .item {
+    padding: 10px;
+    color: rgb(57, 255, 239);
+    font-weight: 500;
+}
+
+.show {
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.9);
+}
+
+#tableSelect {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+tbody {
+    align-items: center;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+#renderSeats tr:nth-of-type(2) {
+    display: none;
+}
+
+
+tbody tr:nth-of-type(6) {
+    height: 20px;
+}
+
+td,
+tr {
+    padding: 3px;
+}
+
+.btnSeat {
+    width: 55px;
+}
+
+.btnSelectSeat {
+    width: 41px;
+}
+
+/* Table show info */
+
+#tableShowInfo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+}
+
+#bodyShowInfo {
+    background-color: white;
+}
+
+#bodyShowInfo tr th {
+    padding: 7px 30px;
+    border: solid 1px;
+    margin: 0 12px;
+}
+
+#bodyShowInfo tr td {
+    border: solid 1px;
+
+    margin-bottom: 80px;
+}
+
+#bodyShowInfo tr td textarea {
+    resize: none;
+    width: 100%;
+    border: none;
+}
+#bodyShowInfo tr td textarea:focus-visible{
+    outline: none;
+    
+}
+.btnSeat{
+    text-align: left;
+}
+.btnCustom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
