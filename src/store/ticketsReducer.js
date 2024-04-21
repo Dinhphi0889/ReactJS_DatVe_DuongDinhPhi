@@ -753,6 +753,7 @@ const ticketsReducer = (state = initialState, action) => {
             state.selectSeats = [];
             document.querySelector('#seatSelect').value = state.selectSeats
             state.isDisabled = action.payload;
+            state.isDisabledInput = action.payload
             return { ...state }
 
         case 'COMFIRM_SEATS':

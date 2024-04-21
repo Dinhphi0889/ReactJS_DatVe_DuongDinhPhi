@@ -40,7 +40,7 @@ class Index extends Component {
 
 
     render() {
-        const { isDisabled, isDisabledInput,confirmSeats } = this.props
+        const { isDisabledInput,confirmSeats } = this.props
         return (
             <div className='container'>
                 <div className='show'>
@@ -66,7 +66,7 @@ class Index extends Component {
                         <input disabled={true} id='seatSelect' type='input'></input>
 
 
-                        <button className='btnResetSelection btn btn-success' disabled={isDisabled} onClick={this.props.resetChoise}>Reset Selecting</button>
+                        <button className='btnResetSelection btn btn-success'  onClick={this.props.resetChoise}>Reset Selecting</button>
                     </div>
 
                     {/* Bảng hiển thị số ghế */}
